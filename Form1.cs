@@ -24,39 +24,45 @@ namespace Pizza_Shop_POS
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            textBox2.Text = textBox1.Text;
-            label1.Text=textBox1.Text; 
+            MessageBox.Show("Hello World!");
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
-        }
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            textBox2.Text = textBox1.Text;
-        }
-
-        private void button2_MouseEnter(object sender, EventArgs e)
-        {
-            textBox2.Text = textBox1.Text;
+            MessageBox.Show("Hello World!", "Welcome");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            textBox1.Enabled = false;
+            MessageBox.Show("Hello World!", "Welcome",MessageBoxButtons.OK);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            textBox1.Enabled = true;
+            MessageBox.Show("Hello World!", "Welcome", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) ;
+
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
 
+            MessageBox.Show("Hello World!", "Welcome", MessageBoxButtons.OKCancel,
+            MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+            }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Hello World!", "Welcome", MessageBoxButtons.OKCancel,
+MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) == DialogResult.OK)
+            {
+                MessageBox.Show("You selected OK");
+            }
+            else
+            {
+                MessageBox.Show("You selected Cancel");
+            }
         }
     }
 }
