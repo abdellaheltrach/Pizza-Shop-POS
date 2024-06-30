@@ -607,12 +607,15 @@ namespace Pizza_Shop_POS
 
         private void btnRest_Click(object sender, EventArgs e)
         {
-            groupBox1.Enabled = true;
-            groupBox2.Enabled = true;
-            groupBox3.Enabled = true;
-            groupBox4.Enabled = true;
-            btnRest.Enabled = false;
-            btnOrderPizza.Enabled = true;
+            if (MessageBox.Show("Do you want to proceed?", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
+            {
+                groupBox1.Enabled = true;
+                groupBox2.Enabled = true;
+                groupBox3.Enabled = true;
+                groupBox4.Enabled = true;
+                btnRest.Enabled = false;
+                btnOrderPizza.Enabled = true;
+            }
         }
     }
 }
