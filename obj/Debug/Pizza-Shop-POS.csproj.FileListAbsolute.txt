@@ -1,6 +1,5 @@
 C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\Pizza-Shop-POS\bin\Debug\Pizza-Shop-POS.exe.config
 C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\Pizza-Shop-POS\bin\Debug\Pizza-Shop-POS.exe
-C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\Pizza-Shop-POS\bin\Debug\Pizza-Shop-POS.pdb
 C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\Pizza-Shop-POS\obj\Debug\Pizza-Shop-POS.csproj.AssemblyReference.cache
 C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\Pizza-Shop-POS\obj\Debug\Pizza_Shop_POS.Form1.resources
 C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\Pizza-Shop-POS\obj\Debug\Pizza_Shop_POS.Properties.Resources.resources
@@ -8,3 +7,13 @@ C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\Pizza-Shop-POS\obj\De
 C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\Pizza-Shop-POS\obj\Debug\Pizza-Shop-POS.csproj.CoreCompileInputs.cache
 C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\Pizza-Shop-POS\obj\Debug\Pizza-Shop-POS.exe
 C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\Pizza-Shop-POS\obj\Debug\Pizza-Shop-POS.pdb
+C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\tset\bin\Debug\Pizza-Shop-POS.exe.config
+C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\tset\bin\Debug\Pizza-Shop-POS.exe
+C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\tset\bin\Debug\Pizza-Shop-POS.pdb
+C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\tset\obj\Debug\Pizza-Shop-POS.csproj.AssemblyReference.cache
+C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\tset\obj\Debug\Pizza_Shop_POS.Form1.resources
+C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\tset\obj\Debug\Pizza_Shop_POS.Properties.Resources.resources
+C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\tset\obj\Debug\Pizza-Shop-POS.csproj.GenerateResource.cache
+C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\tset\obj\Debug\Pizza-Shop-POS.csproj.CoreCompileInputs.cache
+C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\tset\obj\Debug\Pizza-Shop-POS.exe
+C:\Users\ABDELLAH\Desktop\programming\projects\Homework\C#\tset\obj\Debug\Pizza-Shop-POS.pdb

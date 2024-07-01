@@ -88,7 +88,7 @@
             this.groupBox1.Controls.Add(this.rbnSmall);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.Black;
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(69, 123);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(212, 176);
@@ -142,7 +142,7 @@
             this.groupBox2.Controls.Add(this.radioButton6);
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.Color.Black;
+            this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(69, 322);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(212, 129);
@@ -187,7 +187,7 @@
             this.groupBox3.Controls.Add(this.checkBox1);
             this.groupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.ForeColor = System.Drawing.Color.Black;
+            this.groupBox3.ForeColor = System.Drawing.Color.White;
             this.groupBox3.Location = new System.Drawing.Point(320, 123);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(313, 176);
@@ -274,7 +274,7 @@
             this.groupBox4.Controls.Add(this.radioButton7);
             this.groupBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.ForeColor = System.Drawing.Color.Black;
+            this.groupBox4.ForeColor = System.Drawing.Color.White;
             this.groupBox4.Location = new System.Drawing.Point(320, 322);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(313, 86);
@@ -321,7 +321,7 @@
             this.groupBox5.Controls.Add(this.label2);
             this.groupBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.ForeColor = System.Drawing.Color.Black;
+            this.groupBox5.ForeColor = System.Drawing.Color.White;
             this.groupBox5.Location = new System.Drawing.Point(675, 123);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(309, 352);
@@ -434,23 +434,27 @@
             // 
             // btnOrderPizza
             // 
+            this.btnOrderPizza.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.btnOrderPizza.ForeColor = System.Drawing.Color.Black;
             this.btnOrderPizza.Location = new System.Drawing.Point(322, 430);
             this.btnOrderPizza.Name = "btnOrderPizza";
             this.btnOrderPizza.Size = new System.Drawing.Size(138, 44);
             this.btnOrderPizza.TabIndex = 10;
             this.btnOrderPizza.Text = "Order Pizza";
-            this.btnOrderPizza.UseVisualStyleBackColor = true;
+            this.btnOrderPizza.UseVisualStyleBackColor = false;
             this.btnOrderPizza.Click += new System.EventHandler(this.btnOrderPizza_Click);
             // 
             // btnRest
             // 
+            this.btnRest.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnRest.Enabled = false;
+            this.btnRest.ForeColor = System.Drawing.Color.Black;
             this.btnRest.Location = new System.Drawing.Point(495, 430);
             this.btnRest.Name = "btnRest";
             this.btnRest.Size = new System.Drawing.Size(138, 44);
             this.btnRest.TabIndex = 11;
             this.btnRest.Text = "Rest Form";
-            this.btnRest.UseVisualStyleBackColor = true;
+            this.btnRest.UseVisualStyleBackColor = false;
             this.btnRest.Click += new System.EventHandler(this.btnRest_Click);
             // 
             // Form1
@@ -467,6 +471,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "My Project";
