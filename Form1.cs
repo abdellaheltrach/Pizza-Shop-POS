@@ -26,6 +26,60 @@ namespace Pizza_Shop_POS
             radioButton7.Checked = true;
         }
 
+        //First group
+        void UpdateSize()
+        {
+
+            UpdateTotalPrice();
+
+            if (rbnSmall.Checked)
+            {
+                label3.Text = "Small";
+                return;
+            }
+
+            if (rbnMed.Checked)
+            {
+                label3.Text = "Medium";
+                return;
+            }
+
+            if (rbnLarg.Checked)
+            {
+                label3.Text = "Large";
+                return;
+            }
+
+        }
+        float GetSelectedSizePrice()
+        {
+            if (rbnSmall.Checked)
+
+                return Convert.ToSingle(rbnSmall.Tag);
+
+            else if (rbnMed.Checked)
+
+                return Convert.ToSingle(rbnMed.Tag);
+
+            else
+                return Convert.ToSingle(rbnLarg.Tag);
+
+        }
+
+        float CalculateTotalPrice()
+        {
+            return GetSelectedSizePrice() + CalculateToppingsPrice() + GetSelectedCrutPrice();
+        }
+
+        void UpdateTotalPrice()
+        {
+
+            label10.Text = "$" + CalculateTotalPrice().ToString();
+
+        }
+
+
+
         private void label3_Click(object sender, EventArgs e)
         {
             
@@ -607,7 +661,7 @@ namespace Pizza_Shop_POS
 
         private void btnRest_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Do you want to proceed?", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
+            if (MessageBox.Show("Do you want to Cancel your Order?", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
             {
                 groupBox1.Enabled = true;
                 groupBox2.Enabled = true;
