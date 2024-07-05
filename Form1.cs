@@ -66,10 +66,36 @@ namespace Pizza_Shop_POS
 
         }
 
+        //Crust Group
+
+        void UpdateCrust()
+        {
+            UpdateTotalPrice();
+            if (rbThinCrust.Checked)
+            {
+                lblCrustType.Text = "Think Crust";
+                return;
+            }
+
+            if (rbThickCrust.Checked)
+            {
+                lblCrustType.Text = "Thick Crust";
+                return;
+            }
+
+
+        }
+
+
+
         float CalculateTotalPrice()
         {
             return GetSelectedSizePrice() + CalculateToppingsPrice() + GetSelectedCrutPrice();
         }
+
+
+        // 
+
 
         void UpdateTotalPrice()
         {
