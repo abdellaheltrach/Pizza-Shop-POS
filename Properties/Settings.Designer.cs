@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Pizza_Shop_POS.Properties
+namespace Pizza.Properties
 {
 
 

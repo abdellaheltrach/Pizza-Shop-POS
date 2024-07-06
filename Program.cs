@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pizza_Shop_POS
+namespace Pizza
 {
     internal static class Program
     {
