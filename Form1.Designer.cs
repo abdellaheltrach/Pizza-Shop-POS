@@ -675,7 +675,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::Pizza.Properties.Resources.shutterstock_594962792;
             this.ClientSize = new System.Drawing.Size(1075, 522);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
